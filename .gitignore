@@ -1,10 +1,5 @@
 node_modules
-settings
-config.json
-embed.json
-emoji.json
-filters.json
-motivational.json
+settings/
 package-lock.json
 handlers
 Database

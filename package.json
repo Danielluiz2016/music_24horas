@@ -11,7 +11,7 @@
     "distube",
     "player"
   ],
-  "author": "KabirSingh",
+  "author": "+Danielluiz",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.7.0",
