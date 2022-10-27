@@ -30,7 +30,7 @@ module.exports = new Command({
           .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
           .addFields([
             {
-              name: `🤖 Nome`,
+              name: `🤖 Name`,
               value: `>>> \`${client.user.username}\``,
               inline: true,
             },
