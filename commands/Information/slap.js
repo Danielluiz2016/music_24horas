@@ -12,6 +12,7 @@ module.exports = new Command({
     botPermissions: ['SEND_MESSAGES'],
     category: "Information",
     cooldown: 10,
+    type: 'CHAT_INPUT',
     options: [
         {
             name: "user",
