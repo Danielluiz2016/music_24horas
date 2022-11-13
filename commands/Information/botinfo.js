@@ -25,7 +25,7 @@ module.exports = new Command({
             iconURL: client.user.displayAvatarURL({ dynamic: true }),
           })
           .setDescription(
-            `** Name: <@950915643375513630> | [Youtube Channel](https://www.youtube.com/channel/UC0gxBh0ZJ1172_2S9RdIHPA) | [Github](https://github.com/Danielluiz2016/music_24horas | [Owner](https://www.instagram.com/morumbimtarp) ** \n\n`
+            `** Name: <@950915643375513630> | [Youtube Channel](https://www.youtube.com/channel/UC0gxBh0ZJ1172_2S9RdIHPA) | [Github](https://github.com/Danielluiz2016/music_24horas) | [Owner](https://www.instagram.com/morumbimtarp) ** \n\n`
           )
           .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
           .addFields([
