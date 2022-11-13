@@ -1,17 +1,12 @@
 const { Command } = require("reconlx");
-const ee = require("../../settings/embed.json");
 const config = require("../../settings/config.json");
 const { MessageEmbed } = require("discord.js");
-const emoji = require('../../settings/emoji.json')
+
 
 module.exports = new Command({
     // options
     name: "slap",
     description: `See server information!`,
-    userPermissions: ['SEND_MESSAGES'],
-    botPermissions: ['SEND_MESSAGES'],
-    category: "Information",
-    cooldown: 10,
     type: 'CHAT_INPUT',
     options: [
         {
