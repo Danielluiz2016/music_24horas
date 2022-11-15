@@ -70,12 +70,12 @@ module.exports = new Command({
               inline: true,
             },
             {
-              name: `${emoji.setup} Bot Commands`,
-              value: `>>> \`\`\` Commands ${client.commands.size} , SubCommands ${client.subcmd.size}\`\`\``,
-            },
-            {
               name: `🌐 Host`,
               value: `>>> **[Square Cloud](https://discord.gg/gC9JDyr2xs)** `,
+            },
+            {
+              name: `${emoji.setup} Bot Commands`,
+              value: `>>> \`\`\` Commands ${client.commands.size} , SubCommands ${client.subcmd.size}\`\`\``,
             },
             {
               name: `${emoji.time} Bot Uptime`,
