@@ -93,3 +93,16 @@ process.on("multipleResolves", (type, promise, reason) => {
   console.log(" [Error_Handling] :: Multiple Resolves");
   console.log(type, promise, reason);
 });
+
+client.on("ready", () => {
+  const canal_log_on = client.channels.cache.get('1042081650143662252')
+  const dono = client.users.cache.get('135956528007086080')
+  const dono2 = "+Daniel Luiz#9128"
+  const emb = new Discord.MessageEmbed()
+      .setTitle('Estou Online novamente!')
+      .setDescription('Estive offline, precisei tirar um tempo para manutenção de args...')
+      .setColor('0260A0')
+      .setFooter(`${dono.username} me ligou!`)
+      .setTimestamp()
+  canal_log_on.send({ content: `${dono2}`, embeds: [emb] })
+})
