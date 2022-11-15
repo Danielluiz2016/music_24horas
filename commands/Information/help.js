@@ -89,7 +89,7 @@ module.exports = new Command({
           )
           .addField(
             `** Developer Info **`,
-            `** Name : <@882481863661342770> | [Youtube](https://www.youtube.com/channel/UC0gxBh0ZJ1172_2S9RdIHPA) | [Github]() **`
+            `** Name : <@135956528007086080> | [Youtube](https://www.youtube.com/channel/UC0gxBh0ZJ1172_2S9RdIHPA) | [Github](https://github.com/Danielluiz2016) **`
           );
         await interaction
           .followUp({
