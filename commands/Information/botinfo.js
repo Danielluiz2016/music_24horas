@@ -55,6 +55,11 @@ module.exports = new Command({
               inline: true,
             },
             {
+              name: `🛡️ Developer`,
+              value: `>>> \`<@135956528007086080>\``,
+              inline: true,
+            },
+            {
               name: `🔗 Node.js Version`,
               value: `>>> \`${process.version}\``,
               inline: true,
