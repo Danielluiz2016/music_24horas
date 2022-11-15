@@ -101,7 +101,7 @@ client.on("ready", () => {
   const emb = new Discord.MessageEmbed()
       .setTitle('Estou Online novamente!')
       .setDescription('Estive offline, precisei tirar um tempo para manutenção de args...')
-      .setColor('0260A0')
+      .setColor('#3ee607')
       .setFooter(`${dono.username} me ligou!`)
       .setTimestamp()
   canal_log_on.send({ content: `${dono2}`, embeds: [emb] })
