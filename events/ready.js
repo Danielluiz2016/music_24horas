@@ -18,7 +18,7 @@ client.on("ready", async () => {
   });
 });
 
-client.on("ready", () => {
+client.on("ready", async () => {
   const canal_log_on = client.channels.cache.get('1042081650143662252')
   const dono = client.users.cache.get('135956528007086080')
   const dono2 = "+Daniel Luiz#9128"
