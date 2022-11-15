@@ -56,7 +56,7 @@ module.exports = new Command({
             },
             {
               name: `🛡️ Developer`,
-              value: `>>> \`<@135956528007086080>\``,
+              value: `>>> <@135956528007086080>`,
               inline: true,
             },
             {
