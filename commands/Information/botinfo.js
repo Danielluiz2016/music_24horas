@@ -74,6 +74,10 @@ module.exports = new Command({
               value: `>>> \`\`\` Commands ${client.commands.size} , SubCommands ${client.subcmd.size}\`\`\``,
             },
             {
+              name: `🌐 Host`,
+              value: `>>> **[Square Cloud](https://discord.gg/gC9JDyr2xs)** `,
+            },
+            {
               name: `${emoji.time} Bot Uptime`,
               value: `>>> \`\`\`${duration(client.uptime)
                 .map((i) => `${i}`)
