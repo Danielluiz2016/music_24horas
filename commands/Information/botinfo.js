@@ -71,7 +71,7 @@ module.exports = new Command({
             },
             {
               name: `🌐 Host`,
-              value: `>>> **[Império Host](https://discord.gg/AgDtrvYkJt) Acesse** `,
+              value: `>>> **[Império Host Acesse](https://discord.gg/AgDtrvYkJt)** `,
             },
             {
               name: `${emoji.setup} Bot Commands`,
